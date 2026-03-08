@@ -1,4 +1,7 @@
 # Java Array Program CI/CD using Jenkins
+![Java](https://img.shields.io/badge/Language-Java-orange)
+![Jenkins](https://img.shields.io/badge/CI-CD-Jenkins-red)
+![DevOps](https://img.shields.io/badge/Project-DevOps-blue)
 
 ## Project Overview
 This project demonstrates how a simple **Java program** can be integrated with **Jenkins** to automate the build and execution process using a **CI/CD pipeline**.
