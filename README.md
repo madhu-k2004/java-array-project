@@ -1,4 +1,6 @@
 # Java Array Program CI/CD using Jenkins
+## Project Overview
+This project demonstrates how a simple Java program can be integrated with Jenkins to automate the build and execution process using a CI/CD pipeline. The Java program processes an array and identifies vowels, while Jenkins automatically compiles and runs the program whenever the build is triggered.
 
 ## Project Description
 This project demonstrates how a simple Java Array program can be automatically built and executed using Jenkins.
