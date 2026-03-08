@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Compile Java Files') {
+            steps {
+                sh 'javac arvowel.java'
+                sh 'javac reversearr.java'
+            }
+        }
+
+        stage('Run Java Programs') {
+            steps {
+                sh 'java arvowel'
+                sh 'java reversearr'
+            }
+        }
+    }
+}
