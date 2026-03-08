@@ -1,6 +1,7 @@
 # Java Array Program CI/CD using Jenkins
+
 ![Java](https://img.shields.io/badge/Language-Java-orange)
-![CI/CD](https://img.shields.io/badge/CI-CD-Jenkins-red)
+![CI/CD](https://img.shields.io/badge/CI--CD-Jenkins-red)
 ![Project](https://img.shields.io/badge/Project-DevOps-blue)
 
 ## Project Overview
