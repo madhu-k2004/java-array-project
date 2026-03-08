@@ -76,6 +76,9 @@ java arvowel
 java reversearr
 ```
 ---
+## Program Output 
+The execution output of the java programs is avaliable in :
+output.txt
 
 ## Future Improvements
 
