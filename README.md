@@ -1,5 +1,4 @@
 # Java Array Program CI/CD using Jenkins
-# Java Array Program CI/CD using Jenkins
 
 ## Project Overview
 This project demonstrates how a simple **Java program** can be integrated with **Jenkins** to automate the build and execution process using a **CI/CD pipeline**.
