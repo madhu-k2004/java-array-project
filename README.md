@@ -1,40 +1,93 @@
 # Java Array Program CI/CD using Jenkins
-## Project Overview
-This project demonstrates how a simple Java program can be integrated with Jenkins to automate the build and execution process using a CI/CD pipeline. The Java program processes an array and identifies vowels, while Jenkins automatically compiles and runs the program whenever the build is triggered.
+# Java Array Program CI/CD using Jenkins
 
-## Project Description
-This project demonstrates how a simple Java Array program can be automatically built and executed using Jenkins.
+## Project Overview
+This project demonstrates how a simple **Java program** can be integrated with **Jenkins** to automate the build and execution process using a **CI/CD pipeline**.
+
+The Java programs perform basic array operations such as:
+- Identifying vowels in an array
+- Reversing elements in an array
+
+Jenkins automatically builds and executes the program whenever changes are pushed to GitHub.
+
+---
 
 ## Technologies Used
+
 - Java
 - Jenkins
+- Git
 - GitHub
-- VS Code
+- CI/CD Pipeline
 
-## Program Function
-The Java program performs operations on arrays such as:
-- Printing array elements
-- Finding vowels in array elements
-- Basic array processing
+---
 
-## Jenkins Workflow
-1. Code is written in VS Code.
-2. The project is pushed to GitHub repository.
-3. Jenkins pulls the code from GitHub.
-4. Jenkins builds and executes the Java program automatically.
+## Project Structure
 
-## Steps to Run
-1. Install Java and Jenkins.
-2. Create a Jenkins job.
-3. Connect the GitHub repository to Jenkins.
-4. Configure build step to run the Java program.
-5. Build the job to execute the program.
+java-array-project
+│
+├── arvowel.java
+├── reversearr.java
+├── arvowel.class
+├── jenkins-dashboard-build-success.png
+└── README.md
 
-## Output
-The Jenkins console output displays the results of the Java array program.
-##Jenkins Build Dashboard 
-![jenkins Build]
-(jenkins-dashboard-build-success.png)
+---
+
+## CI/CD Pipeline using Jenkins
+
+Steps performed by Jenkins:
+
+1. Pulls code from GitHub repository
+2. Compiles the Java program
+3. Executes the program
+4. Displays build status in Jenkins Dashboard
+
+---
+
+## Jenkins Build Success
+
+![Jenkins Build](jenkins-dashboard-build-success.png.jpeg)
+---
+
+## How to Run Locally
+
+Clone the repository
+
+```
+git clone https://github.com/your-username/java-array-project.git
+```
+
+Navigate to project folder
+
+```
+cd java-array-project
+```
+
+Compile the Java program
+
+```
+javac arvowel.java
+javac reversearr.java
+```
+
+Run the program
+```
+java arvowel
+java reversearr
+```
+---
+
+## Future Improvements
+
+- Add Jenkinsfile for pipeline automation
+- Add unit testing
+- Docker integration
+- Automated deployment
+
+---
 
 ## Author
-Madhu
+
+Madhu  
+DevOps Enthusiast
