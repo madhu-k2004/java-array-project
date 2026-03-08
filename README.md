@@ -46,7 +46,7 @@ Steps performed by Jenkins:
 
 ## Jenkins Build Success
 
-![Jenkins Build](jenkins-dashboard-build-success.png.jpeg)
+!jenkins_dashboard-build-sucess
 ---
 
 ## How to Run Locally
