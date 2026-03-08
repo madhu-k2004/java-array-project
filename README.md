@@ -30,6 +30,9 @@ The Java program performs operations on arrays such as:
 
 ## Output
 The Jenkins console output displays the results of the Java array program.
+##Jenkins Build Dashboard 
+![jenkins Build]
+(jenkins-dashboard-build-success.png)
 
 ## Author
 Madhu
